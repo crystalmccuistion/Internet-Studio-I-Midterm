@@ -1,18 +1,34 @@
 /* styles.css */
 
+:root {
+    --background: #d8dde1;
+    --header: #090909;
+    --subtitle: #617482;
+    --body: #171718;
+    --accent: #294cc0;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
-
+    background-color: var(--background);
+    color: var(--body);
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
+    color: var(--header);
 }
 
 h2 {
     font-family: "Montserrat", sans-serif;
+    color: var(--header);
 }
 
 h3 {
     font-family: "Montserrat", sans-serif;
+    color: var(--header);
+}
+
+.subtitle {
+    color: var(--subtitle);
 }
