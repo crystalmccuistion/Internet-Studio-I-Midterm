@@ -15,7 +15,7 @@
   X6. Add links to the page where appropriate (you need to have at least one link). If you want to make a link to email you, the href should point to "mailto:youremailaddress@utdallas.edu"
   7. Choose two Google Web Fonts and link to them in your page--one for your display text (title of your page or headings) and one for body copy
   8. Create styles to change the font-face (use the Google Web Font) and color of your headings, and create other typographic treatments
-  9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page starting just beneath the body tag (and closing just before the close body tag):
+  X9. Add the necessary links from getbootstrap.com to use the Bootstrap framework and add the following wrapper to your page starting just beneath the body tag (and closing just before the close body tag):
         <div class="container">
           Add resume content here
         </div>
@@ -32,15 +32,35 @@
       <h1>Crystal McCuistion</h1>
     </div> <!-- End row -->
     <div class="row">
-      <p>
-        Crystal is an undergraduate studying animation and game development
-        at the University of Texas at Dallas. Her focus is in rigging and 
-        pipeline tool development. 
+      <p class="subtitle">
+        3D Technical Artist - Modeling, Rigging, Tool Development
       </p>
     </div> <!-- End row -->
 
     <div class="row">
       <div class="col-8">
+        <section class="article">
+          <p>
+            Crystal is an undergraduate studying animation and game development
+            at the University of Texas at Dallas. Her focus is in rigging and 
+            pipeline tool development for real-time 3D assets. 
+          </p>
+        </section>
+        <section class="article">
+          <h3>Control Curve Automater</h3>
+          <img src="assets/img/controlCurveAutomater.png" alt="" class="img-fluid">
+          <p>
+            A rig helper which handles the placement and appearance
+            of control curves. Features include:
+            <ul>
+              <li>Automatic naming and placement in scene hierarchy</li>
+              <li>Customizable naming conventions</li>
+              <li>Creates an FK chain with parent constraints automatically if multiple joints are selected at once</li>
+              <li>Orients controls to underlying joint or to a chosen axis</li>
+              <li>Toggleable option to create joint constraints automatically</li>
+            </ul>
+          </p>
+        </section>
       </div>
       <div class="col-4">
         <section class="article">
@@ -74,6 +94,14 @@
             <li>Unreal Engine</li>
             <li>VS Code</li>
             <li>Adobe Photoshop</li>
+          </ul>
+        </section>
+        <section class="article">
+          <h2>Languages</h2>
+          <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
           </ul>
         </section>
       </div>
