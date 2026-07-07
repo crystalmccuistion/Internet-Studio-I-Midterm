@@ -1,7 +1,7 @@
 /* styles.css */
 
 :root {
-    --background: #d8dde1;
+    --background: #e9ecef;
     --header: #090909;
     --subtitle: #617482;
     --body: #171718;
@@ -12,11 +12,15 @@ body {
     font-family: "Open Sans", sans-serif;
     background-color: var(--background);
     color: var(--body);
+    font-size: 1.3em;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }
 
 h1 {
     font-family: "Montserrat", sans-serif;
     color: var(--header);
+    font-size: 2.3em;
 }
 
 h2 {
@@ -29,6 +33,16 @@ h3 {
     color: var(--header);
 }
 
+a {
+    color: var(--accent);
+}
+
 .subtitle {
     color: var(--subtitle);
+    font-size: .9em;
+}
+
+.article {
+	padding: 10px;
+	border-bottom: 2px double var(--deep-mocha);
 }
