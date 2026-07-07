@@ -44,5 +44,5 @@ a {
 
 .article {
 	padding: 10px;
-	border-bottom: 2px double var(--deep-mocha);
+	border-bottom: 2px double var(--body);
 }
